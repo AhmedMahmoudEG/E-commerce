@@ -1,0 +1,45 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --watch server.js",
+    "start:prod": "cross-env NODE_ENV=production node --watch server.js",
+    "debug:dev": "cross-env NODE_ENV=development ndb nodemon server.js",
+    "debug:prod": "cross-env NODE_ENV=production ndb nodemon server.js",
+    "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js --no-source-maps",
+    "build:js": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
+  },
+  "keywords": [],
+  "author": "Ahmad Mahmoud",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "cloudinary": "^2.7.0",
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.3",
+    "multer": "^2.0.2",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^7.0.10",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "sharp": "^0.34.4",
+    "slugify": "^1.6.6",
+    "validator": "^13.15.15",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.1"
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "name": {
+      "en": "Samsung",
+      "ar": "سامسونج"
+    },
+    "logo_url": "https://example.com/logos/samsung.png",
+    "description": {
+      "en": "Samsung Electronics is a global leader in technology, opening new possibilities for people everywhere through innovative products and services.",
+      "ar": "سامسونج إلكترونيكس هي شركة رائدة عالميًا في مجال التكنولوجيا، تفتح إمكانيات جديدة للناس في كل مكان من خلال المنتجات والخدمات المبتكرة."
+    },
+    "is_featured": true
+  },
+  {
+    "name": {
+      "en": "Apple",
+      "ar": "أبل"
+    },
+    "logo_url": "https://example.com/logos/apple.png",
+    "description": {
+      "en": "Apple is a pioneer in personal technology and creator of iPhone, iPad, Mac, Apple Watch, and more.",
+      "ar": "أبل هي شركة رائدة في مجال التكنولوجيا الشخصية ومبتكرة آيفون وآيباد وماك وأبل ووتش والمزيد."
+    },
+    "is_featured": true
+  },
+  {
+    "name": {
+      "en": "Xiaomi",
+      "ar": "شاومي"
+    },
+    "logo_url": "https://example.com/logos/xiaomi.png",
+    "description": {
+      "en": "Xiaomi is a leading consumer electronics company committed to making innovation accessible to everyone.",
+      "ar": "شاومي هي شركة رائدة في مجال الإلكترونيات الاستهلاكية ملتزمة بجعل الابتكار في متناول الجميع."
+    },
+    "is_featured": true
+  },
+  {
+    "name": {
+      "en": "Oppo",
+      "ar": "أوبو"
+    },
+    "logo_url": "https://example.com/logos/oppo.png",
+    "description": {
+      "en": "OPPO is a leading global smart device brand, dedicated to providing beautifully designed and innovative smartphones.",
+      "ar": "أوبو هي علامة تجارية عالمية رائدة في مجال الأجهزة الذكية، مكرسة لتوفير الهواتف الذكية المصممة بشكل جميل والمبتكرة."
+    },
+    "is_featured": false
+  },
+  {
+    "name": {
+      "en": "Huawei",
+      "ar": "هواوي"
+    },
+    "logo_url": "https://example.com/logos/huawei.png",
+    "description": {
+      "en": "Huawei is a leading global provider of information and communications technology infrastructure and smart devices.",
+      "ar": "هواوي هي مزود عالمي رائد لبنية تحتية لتكنولوجيا المعلومات والاتصالات والأجهزة الذكية."
+    },
+    "is_featured": false
+  }
+]
